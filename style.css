@@ -1,0 +1,44 @@
+.heading {
+    font-size: 19px;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    font-style: italic;
+    color: green;
+    box-shadow: 1px 1px 38px purple;
+}
+
+.note {
+    font-size: 15px;
+    color: black;
+}
+
+@keyframes custom {
+    from {
+        box-shadow: 1px 1px 38px yellow;
+    }
+    to {
+        box-shadow: 1px 1px 38px purple;
+    }
+}
+
+btn-warning:hover {
+    background-color: blue;
+    color: aqua;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: custom;
+}
